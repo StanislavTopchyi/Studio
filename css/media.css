@@ -1,0 +1,222 @@
+/* ***************************************Mobile ************************************/
+@media (min-width: 768px) {
+  html,
+  body {
+    font-size: 80%; /* ----16px---- */
+  }
+  header .container {
+    margin: 0 1rem;
+    flex-direction: row;
+    vertical-align: middle;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  header .logo {
+    width: 30%;
+  }
+  header .logo img {
+    width: 100%;
+  }
+  header .communication {
+    width: 15%;
+    flex-wrap: wrap;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  header .communication li {
+    margin: 0;
+  }
+  header .phone {
+    width: 18%;
+    margin: auto 0;
+  }
+  header .phone a {
+    font-size: 1.2rem;
+  }
+  header .viber {
+    margin: auto 0;
+  }
+
+  header .callback {
+    width: 13%;
+    margin: auto 0;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+
+  /*------------------------       Open Lesson Slider         ------------------ */
+  .open-lesson-slider {
+    margin-top: 0.5rem;
+  }
+  .open-lesson-slider .first-slide {
+    background-position: center 35%;
+  }
+  .open-lesson-slider div h3 {
+    margin: 5% auto 0 auto;
+    width: 50%;
+  }
+  .open-lesson-slider div .first-lesson {
+    margin: 4rem auto 8% auto;
+    outline: none;
+    padding: 1rem;
+    border: none;
+    font-size: 1.6rem;
+    font-family: "Kornilow", "Georgia", serif;
+    font-weight: bold;
+    text-shadow: 1px 1px rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 1px 1px 8px 2px rgba(51, 3, 65, 1);
+    cursor: pointer;
+    max-width: 80%;
+  }
+  .open-lesson-slider div .first-lesson:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  .open-lesson-slider div .first-lesson:active {
+    box-shadow: 1px 1px 2px 2px rgba(51, 3, 65, 1) inset;
+  }
+
+  /*------------------------       Description         ------------------ */
+  .description .container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .description .container p {
+    width: 65%;
+  }
+  .description .container a {
+    width: 25%;
+    margin: 0;
+    padding: 1rem 1.5rem;
+  }
+  /*------------------------       Galery         ------------------ */
+  .galery .container .works,
+  .galery .container .achivments {
+    width: 35%;
+    margin: 1.5rem 0 1rem 0;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    font-family: "Kornilow", "Georgia", serif;
+    background-color: rgba(51, 3, 65, 0.8);
+    text-shadow: 1px 1px rgba(0, 0, 0, 1);
+    box-shadow: 1px 1px 8px 2px rgb(0, 0, 0, 1);
+    outline: none;
+    cursor: pointer;
+  }
+  .galery .container .works {
+    float: left;
+    margin-left: 6rem;
+    transform: translateX(-0%);
+  }
+  .galery .container .achivments {
+    float: right;
+    margin-left: 0;
+    margin-right: 6rem;
+    transform: translateX(0%);
+  }
+
+  /*------------------------       map         ------------------ */
+  .map a {
+    float: right;
+    width: 20%;
+    vertical-align: middle;
+    margin: 5rem 3rem 0 0;
+    line-height: 3rem;
+  }
+  .map .map-frame {
+    float: left;
+    width: 65%;
+    margin-left: 3rem;
+  }
+
+  /*------------------------       footer         ------------------ */
+  footer {
+    padding: 0.5 0 0 1.5rem;
+  }
+  footer .container {
+    width: 85%;
+  }
+  footer .maker {
+    display: inline-block;
+  }
+  footer .communication li {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 0;
+  }
+
+  /*------------------------       modal         ------------------ */
+  .callback-field-form .call-form-group label {
+    display: inline-block;
+    margin: 0.5rem 0 0 7%;
+  }
+  .callback-field-form .call-form-group input {
+    float: right;
+    margin-right: 2rem;
+    width: 50%;
+    display: inline-block;
+  }
+  .callback-field-form .call-comment textarea {
+    margin: 1rem 0 0 0;
+    height: 70px;
+    font-size: 1.6rem;
+  }
+  .callback-field-form .submit-btn {
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+  }
+  .callback-field-form .submit-btn:hover {
+    background-color: rgba(51, 3, 65, 0.7);
+  }
+  .callback-field-form .submit-btn:active {
+    box-shadow: 1px 1px 2px 2px rgba(51, 3, 65, 0.2) inset;
+  }
+}
+
+@media (min-width: 1024px) {
+  body .container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  header .logo img {
+    transform: translateY(0.5rem);
+  }
+  header .viber .PC {
+    display: block;
+  }
+  header .viber .mobile {
+    display: none;
+  }
+
+  /*------------------------       Description         ------------------ */
+  .description .container {
+    width: 950px;
+  }
+  /*--------------------------       Galery       ----------------------- */
+  .galery .galery-slider div {
+    width: 95%;
+  }
+  .galery .galery-slider div img {
+    margin-top: 1.5rem;
+  }
+  .galery .galery-slider .prev {
+    left: 0.5%;
+  }
+  .galery .galery-slider .next {
+    right: 0.5%;
+  }
+
+  /*------------------------       footer         ------------------ */
+  footer .communication {
+    margin-left: 3rem;
+  }
+  footer .phone {
+    margin-right: 3rem;
+  }
+}
